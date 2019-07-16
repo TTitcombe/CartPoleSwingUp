@@ -11,7 +11,7 @@ This adapted version includes a non-continuous version of the environment for us
 
 ### How to use
 Once you've imported the environment class, you can simply call `env = CartPoleSwingUpEnv()`.
-However, if you do not want to hard-code an environment, I have created a helper function which defaults to defaults gym behaviour if using any other env:
+However, if you do not want to hard-code an environment, I have created a helper function which defaults to gym behaviour if using any other env:
 ```python
 from CartPoleSwingUp import make
 
