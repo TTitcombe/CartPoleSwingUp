@@ -1,7 +1,6 @@
 from gym import make as gym_make
 
-from env.cartpole_swingup import CartPoleSwingUpEnv
-from env.cartpole_swingup_continuous import CartPoleSwingUpContinuousEnv
+from env import CartPoleSwingUpEnv, CartPoleSwingUpContinuousEnv
 
 
 def make(env_name, *make_args, **make_kwargs):
