@@ -6,5 +6,6 @@ setup(name='CartPoleSwingUp',
       version='1.0',
       description='CartPoleSwingUp custom openai gym environment',
       author='Tom Titcombe',
-      author_email='t.j.titcombe@gmail.com'
+      author_email='t.j.titcombe@gmail.com',
+      packages=["cartpoleswingup"]
       )

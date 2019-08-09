@@ -1,2 +1,0 @@
-from cartpole_swingup import CartPoleSwingUpEnv
-from cartpole_swingup_continuous import CartPoleSwingUpContinuousEnv

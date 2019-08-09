@@ -15,7 +15,7 @@ You can then import the code with `import CartPoleSwingUp`.
 Once you've imported the environment class, you can simply call `env = CartPoleSwingUpEnv()`.
 However, if you do not want to hard-code an environment, I have created a helper function which defaults to gym behaviour if using any other env:
 ```python
-from CartPoleSwingUp import make
+from cartpoleswingup import make
 
 swing_up_env = make("CartPoleSwingUp")
 cartpole_env = make("CartPole-v1")
